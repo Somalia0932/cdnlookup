@@ -16,6 +16,6 @@ jobs:
     - uses: actions/checkout@v4
     - uses: Somalia0932/go-release-action@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.RELEASE_TOKEN }}
         goos: linux
         goarch: amd64
